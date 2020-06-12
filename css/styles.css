@@ -84,6 +84,7 @@ a {
   padding: 30px;
   background-color: #66bfbf;
   line-height: 2;
+  font-size:0.6rem;
 }
 
 .profile {
@@ -115,7 +116,7 @@ a {
 
 .footer-copyright {
   color: #eaf6f6;
-  font-size: 60%;
+ 
 }
 
 .footer-link {
