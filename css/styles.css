@@ -121,7 +121,7 @@ a {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .box {
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@ a {
 }
 
 .project-row {
-  padding: 25px;
+  padding: 10px;
   width: 25%;
   margin: 50px auto 50px;
   text-align: center;
