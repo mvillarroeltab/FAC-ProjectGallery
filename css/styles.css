@@ -112,11 +112,12 @@ a {
 }
 .box {display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
   }
   .project-row {
-    padding: 50px;
-    width: 50%;
-    margin: 100px auto 100px;
+    padding: 25px;
+    width: 25%;
+    margin: 50px auto 50px;
     text-align: center;
     line-height: 2;
   }
