@@ -115,12 +115,6 @@ a {
   line-height: 2;
 }
 
-.box {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 @media screen and (max-width: 480px) {
   .box {
     display: flex;
@@ -128,6 +122,11 @@ a {
     justify-content: space-around;
     flex-wrap: wrap;
   }
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .project-row {
