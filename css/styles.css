@@ -110,9 +110,17 @@ a {
   text-align: left;
   line-height: 2;
 }
+
 .box {display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
+  }
+@media screen and (max-width: 600px) {
+  .box {display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+    }
   }
   .project-row {
     padding: 25px;
