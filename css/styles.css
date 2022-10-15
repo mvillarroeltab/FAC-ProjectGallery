@@ -57,16 +57,19 @@ a {
   border-style: dotted;
   border-color: #79bac1;
 }
+
 .arch-image {
   border-radius: 100%;
   height: 350px;
   width: 350px;
 }
+
 .project {
   border-radius: 100%;
   height: 250px;
   width: 250px;
 }
+
 .arch {
   text-decoration: underline;
 }
@@ -86,24 +89,25 @@ a {
 .contact-me {
   width: 50%;
   margin: 100px auto 100px;
-    line-height: 2;
+  line-height: 2;
 }
 
 .bottom-container {
   padding: 30px;
   background-color: #66bfbf;
   line-height: 2;
-  font-size:0.6rem;
+  font-size: 0.6rem;
 }
 
 .profile {
   width: 50%;
   margin: 100px auto 100px;
 }
+
 .skills {
   margin: 100px auto 100px;
-
 }
+
 .skill-row {
   width: 50%;
   margin: 100px auto 100px;
@@ -111,24 +115,29 @@ a {
   line-height: 2;
 }
 
-.box {display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-  }
-@media screen and (max-width: 600px) {
-  .box {display: flex;
-    flex-direction: column;
+.box {
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-    }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
-  .project-row {
-    padding: 25px;
-    width: 25%;
-    margin: 50px auto 50px;
-    text-align: center;
-    line-height: 2;
-  }
+}
+
+.project-row {
+  padding: 25px;
+  width: 25%;
+  margin: 50px auto 50px;
+  text-align: center;
+  line-height: 2;
+}
+
 .web {
   width: 25%;
   margin-left: 30px;
@@ -143,7 +152,6 @@ flex-wrap: wrap;
 
 .footer-copyright {
   color: #eaf6f6;
-
 }
 
 .footer-link {
@@ -152,23 +160,25 @@ flex-wrap: wrap;
 
 .bttn {
   margin-top: 20PX;
-  background:linear-gradient(to bottom, #5ebabd 5%, #409996 100%);
-	background-color:#5ebabd;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:18px;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0 1px 0 #3d768a;
+  background: linear-gradient(to bottom, #5ebabd 5%, #409996 100%);
+  background-color: #5ebabd;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #3d768a;
 }
+
 .bttn:hover {
-	background:linear-gradient(to bottom, #409996 5%, #5ebabd 100%);
-	background-color:#409996;
+  background: linear-gradient(to bottom, #409996 5%, #5ebabd 100%);
+  background-color: #409996;
 }
+
 .bttn:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
