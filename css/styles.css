@@ -129,7 +129,24 @@ a {
   text-align: center;
   line-height: 2;
 }
-
+.description-p1{
+  display: none;
+}
+.description-p2{
+  display: none;
+}
+.description-p3{
+  display: none;
+}
+.description-display1{
+  display: inline-flex;
+}
+.description-display2{
+  display: inline-flex;
+}
+.description-display3{
+  display: inline-flex;
+}
 .web {
   width: 25%;
   margin-left: 30px;
@@ -183,6 +200,7 @@ a {
   background: linear-gradient(to bottom, #5ebabd 5%, #409996 100%);
   background-color: #5ebabd;
   border-radius: 100%;
+  border: none;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
