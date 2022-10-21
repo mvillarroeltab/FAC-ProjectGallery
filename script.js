@@ -4,7 +4,7 @@ function myFunction(id) {
   console.log ("hello");
 }
 function myFunction2(id) {
-  var element = document.getElementById("description-display"+id);
+  var element = document.getElementById("description-p"+id);
   element.classList.remove("description-display"+id);
   console.log ("hello");
 }
