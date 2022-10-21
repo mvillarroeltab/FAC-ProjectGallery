@@ -8,4 +8,6 @@ function myFunction(id) {
   console.log ("hello");
 }
 
-Bttn.addEventListener('click', myFunction);
+button1.addEventListener('click', myFunction);
+button2.addEventListener('click', myFunction);
+button3.addEventListener('click', myFunction);
