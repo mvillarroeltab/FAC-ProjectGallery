@@ -9,4 +9,3 @@ function myFunction(id) {
 }
 
 Bttn.addEventListener('click', myFunction);
-Bttn.removeEventListener('click', myFunction);
